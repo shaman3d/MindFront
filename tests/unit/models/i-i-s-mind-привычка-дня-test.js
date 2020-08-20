@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-mind-привычка', 'Unit | Model | i-i-s-mind-привычка', {
+moduleForModel('i-i-s-mind-привычка-дня', 'Unit | Model | i-i-s-mind-привычка-дня', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-mind-день-из-жизни',

@@ -78,18 +78,4 @@
     }}
     {{flexberry-validationmessage error=(v-get validationObject "результатДня" "messages")}}
   </div>
-  <div class="field">
-    <label>{{t "forms.i-i-s-mind-день-из-жизни-e.практикуемаяПривычка-caption"}}</label>
-    {{flexberry-groupedit
-      componentName="практикуемаяПривычкаGroupEdit"
-      mainModelProjection=modelProjection
-      modelProjection=modelProjection.attributes.практикуемаяПривычка
-      content=model.практикуемаяПривычка
-      readonly=readonly
-      orderable=false
-      class=(if (v-get validationObject "практикуемаяПривычка" "isInvalid") "error")
-      data-test-i-i-s-mind-день-из-жизни-e---------------------=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationObject "практикуемаяПривычка" "messages")}}
-  </div>
 </form>

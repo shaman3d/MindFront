@@ -1,0 +1,40 @@
+﻿{
+  "name": "IISMindПривычкаДня",
+  "modelName": "i-i-s-mind-привычка-дня",
+  "className": "ПривычкаДня",
+  "nameSpace": "IIS.Mind",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "впечатление",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "привычка",
+      "relatedTo": "i-i-s-mind-привычка",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "деньИзЖизни",
+      "relatedTo": "i-i-s-mind-день-из-жизни",
+      "inverse": "привычкаДня"
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

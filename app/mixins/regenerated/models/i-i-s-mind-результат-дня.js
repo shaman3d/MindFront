@@ -5,7 +5,7 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  тип: DS.attr('string'),
+  тип: DS.attr('i-i-s-mind-t-тип-результата'),
   описание: DS.attr('string'),
   деньИзЖизни: DS.belongsTo('i-i-s-mind-день-из-жизни', { inverse: 'результатДня', async: false })
 });

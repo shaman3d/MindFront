@@ -9,11 +9,13 @@ moduleForModel('i-i-s-mind-моя-жизнь', 'Unit | Serializer | i-i-s-mind-�
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-mind-t-тип-результата',
     'transform:i-i-s-mind-тип-результата',
 
     'model:i-i-s-mind-день-из-жизни',
     'model:i-i-s-mind-моя-жизнь',
     'model:i-i-s-mind-практикуемая-привычка',
+    'model:i-i-s-mind-привычка-дня',
     'model:i-i-s-mind-привычка',
     'model:i-i-s-mind-результат-дня',
     'validator:ds-error',

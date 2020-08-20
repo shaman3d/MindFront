@@ -7,14 +7,6 @@
       "relationName": "МояЖизнь",
       "projection": "МояЖизньL",
       "detailModelName": null
-    },
-    {
-      "master": "привычка",
-      "displayAttributeName": "наименование",
-      "required": true,
-      "relationName": "ПрактикуемаяПривычка.Привычка",
-      "projection": "ПривычкаL",
-      "detailModelName": "i-i-s-mind-практикуемая-привычка"
     }
   ],
   "external": false,

@@ -10,6 +10,7 @@ import IISMindПривычкаEForm from './forms/i-i-s-mind-привычка-e'
 import IISMindДеньИзЖизниModel from './models/i-i-s-mind-день-из-жизни';
 import IISMindМояЖизньModel from './models/i-i-s-mind-моя-жизнь';
 import IISMindПрактикуемаяПривычкаModel from './models/i-i-s-mind-практикуемая-привычка';
+import IISMindПривычкаДняModel from './models/i-i-s-mind-привычка-дня';
 import IISMindПривычкаModel from './models/i-i-s-mind-привычка';
 import IISMindРезультатДняModel from './models/i-i-s-mind-результат-дня';
 
@@ -21,6 +22,7 @@ $.extend(true, translations, {
     'i-i-s-mind-день-из-жизни': IISMindДеньИзЖизниModel,
     'i-i-s-mind-моя-жизнь': IISMindМояЖизньModel,
     'i-i-s-mind-практикуемая-привычка': IISMindПрактикуемаяПривычкаModel,
+    'i-i-s-mind-привычка-дня': IISMindПривычкаДняModel,
     'i-i-s-mind-привычка': IISMindПривычкаModel,
     'i-i-s-mind-результат-дня': IISMindРезультатДняModel
   },
