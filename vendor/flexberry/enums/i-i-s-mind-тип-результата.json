@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.Mind",
+  "className": "ТипРезультата",
+  "enumObjects": {
+    "Пусто": null,
+    "Благодарность": null,
+    "Достижение": null
+  }
+}

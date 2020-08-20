@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mind-день-из-жизни-e",
+  "editForm": "i-i-s-mind-день-из-жизни-e",
+  "external": false,
+  "caption": "День из жизни",
+  "name": "IISMindДеньИзЖизниL",
+  "className": "ДеньИзЖизниL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mind-день-из-жизни",
+      "modelProjection": "ДеньИзЖизниL"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISMindРезультатДня",
+  "modelName": "i-i-s-mind-результат-дня",
+  "className": "РезультатДня",
+  "nameSpace": "IIS.Mind",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "тип",
+      "type": "string",
+      "flexberryType": "tТипРезультата",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "описание",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "деньИзЖизни",
+      "relatedTo": "i-i-s-mind-день-из-жизни",
+      "inverse": "результатДня"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РезультатДняE",
+      "modelName": "i-i-s-mind-результат-дня",
+      "attrs": [
+        {
+          "name": "тип",
+          "caption": "Тип",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "описание",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,44 @@
+﻿{
+  "applicationCaption": "Mind",
+  "applicationTitle": "Mind",
+  "items": [
+    {
+      "link": null,
+      "menuName": "mind",
+      "caption": "Mind",
+      "title": "Mind",
+      "children": [
+        {
+          "link": "i-i-s-mind-день-из-жизни-l",
+          "menuName": null,
+          "caption": "День из жизни",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-mind-моя-жизнь-l",
+          "menuName": null,
+          "caption": "Моя жизнь",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-mind-привычка-l",
+          "menuName": null,
+          "caption": "Привычка",
+          "title": "Привычка",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

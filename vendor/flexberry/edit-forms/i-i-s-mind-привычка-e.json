@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Привычка",
+  "name": "IISMindПривычкаE",
+  "className": "ПривычкаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mind-привычка",
+      "modelProjection": "ПривычкаE"
+    }
+  ]
+}

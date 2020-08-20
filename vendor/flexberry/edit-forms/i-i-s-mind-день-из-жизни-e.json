@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "МояЖизнь",
+      "projection": "МояЖизньL",
+      "detailModelName": null
+    },
+    {
+      "master": "привычка",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ПрактикуемаяПривычка.Привычка",
+      "projection": "ПривычкаL",
+      "detailModelName": "i-i-s-mind-практикуемая-привычка"
+    }
+  ],
+  "external": false,
+  "caption": "День из жизни",
+  "name": "IISMindДеньИзЖизниE",
+  "className": "ДеньИзЖизниE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mind-день-из-жизни",
+      "modelProjection": "ДеньИзЖизниE"
+    }
+  ]
+}

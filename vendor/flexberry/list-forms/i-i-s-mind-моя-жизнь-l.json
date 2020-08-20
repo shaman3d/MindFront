@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-mind-моя-жизнь-e",
+  "editForm": "i-i-s-mind-моя-жизнь-e",
+  "external": false,
+  "caption": "Моя жизнь",
+  "name": "IISMindМояЖизньL",
+  "className": "МояЖизньL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mind-моя-жизнь",
+      "modelProjection": "МояЖизньL"
+    }
+  ]
+}

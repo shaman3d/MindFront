@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Моя жизнь",
+  "name": "IISMindМояЖизньE",
+  "className": "МояЖизньE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-mind-моя-жизнь",
+      "modelProjection": "МояЖизньE"
+    }
+  ]
+}
